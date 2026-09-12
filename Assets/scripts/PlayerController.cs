@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
         }
         animator.SetFloat("Speed", Mathf.Abs(move));
         animator.SetFloat("VerticalVelocity", rb2D.linearVelocity.y);
+        animator.SetBool("IsGrounded", isGrounded);
 
     }
     private void FixedUpdate()
