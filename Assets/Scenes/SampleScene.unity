@@ -727,6 +727,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -852,6 +853,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d6bd5787a896341980e36680f48621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  target: {fileID: 7878350318666680325}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,11 +1042,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce62073bc030e824090ca537914f2f83, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.172
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce62073bc030e824090ca537914f2f83, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.22
+      value: -2.478
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: ce62073bc030e824090ca537914f2f83, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1132,6 +1146,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 539edcdb152933e4eb996e4ac9a9197f, type: 3}
+--- !u!4 &7878350318666680325 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1988124753259021811, guid: 539edcdb152933e4eb996e4ac9a9197f, type: 3}
+  m_PrefabInstance: {fileID: 7530661636996006871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
