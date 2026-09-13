@@ -1,21 +1,40 @@
-# PA01 - Desarrollo de Videojuegos
+# PA02 - Desarrollo de Videojuegos
 
-Proyecto correspondiente al **Producto Académico N.° 1** del curso de Desarrollo de Videojuegos.
+Proyecto correspondiente al **Producto Académico N.° 2** del curso de Desarrollo de Videojuegos.
 
-El proyecto consiste en el desarrollo inicial de un videojuego de plataformas 2D en **Unity**, siguiendo el tutorial de yotube
+Este proyecto continúa el trabajo realizado en el PA01, desarrollando un videojuego de plataformas 2D en **Unity**, siguiendo el tutorial proporcionado por el docente hasta completarlo.
 
 Hasta esta etapa se realizó:
 
-- Creación del proyecto en Unity 2D.
-- Importación de sprites y assets.
-- Creación del escenario mediante Tilemap y Tile Palette.
-- Incorporación del personaje principal.
-- Configuración de físicas con Rigidbody2D y Collider2D.
-- Configuración de colisiones con el escenario.
-- Programación en C# del movimiento horizontal.
-- Cambio de orientación del personaje según la dirección del movimiento.
+- Creación y ampliación del escenario mediante Tilemap y Tile Palette.
+- Configuración del movimiento horizontal del personaje.
+- Implementación de la función de salto.
+- Detección del suelo mediante GroundCheck.
+- Creación del Prefab del personaje.
+- Configuración de animaciones de Idle, Run, Jump y Fall.
+- Implementación del sistema Camera Follow.
+- Creación de monedas coleccionables.
+- Implementación del contador de monedas mediante TextMeshPro.
+- Creación de obstáculos con pinchos.
+- Reinicio del nivel al tocar obstáculos o caer del escenario.
+- Incorporación de barriles interactivos.
+- Animación de destrucción de barriles.
+- Incorporación de música de fondo.
+- Efectos de sonido para monedas y barriles.
+- Ampliación del Tilemap para crear el primer nivel.
+- Incorporación de elementos decorativos al escenario.
 - Control de versiones mediante Git y GitHub.
 
 El script principal del jugador se encuentra en:
 
 `PlayerController.cs`
+
+También se utiliza el script:
+
+`cameraFollow.cs`
+
+para realizar el seguimiento del personaje con la cámara.
+
+## Control de versiones
+
+Todo el desarrollo del proyecto fue registrado mediante commits y subido al repositorio de GitHub. En el historial se pueden observar los diferentes avances realizados durante el desarrollo del videojuego.
